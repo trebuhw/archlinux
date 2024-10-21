@@ -1,0 +1,4 @@
+2024-10-20 19:00:19.386 [info] Started local extension host with pid 20100.
+2024-10-20 19:00:22.104 [info] [perf] Render performance baseline is 30ms
+2024-10-20 19:00:34.813 [error] [File Watcher] Unexpected error: inotify_add_watch on '/home/hubert/.config/Code - OSS/logs/20241020T145528/window1/exthost' failed: Nie ma takiego pliku ani katalogu (EUNKNOWN) (path: /home/hubert)
+2024-10-20 19:00:34.814 [error] [File Watcher (universal)] inotify_add_watch on '/home/hubert/.config/Code - OSS/logs/20241020T145528/window1/exthost' failed: Nie ma takiego pliku ani katalogu
