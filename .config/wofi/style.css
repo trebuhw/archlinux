@@ -1,27 +1,28 @@
 * {
-    font-family: "Hack", monospace;
+    font-family: "FiraCode Nerd Font ", monospace;
+    font-size: 15px;
 }
 
 window {
-    background-color: #3B4252;
+    background-color: #585b70;
 }
 
 #input {
     margin: 5px;
     border-radius: 0px;
     border: none;
-    background-color: #3B4252;
+    background-color: #45475a;
     color: white;
 }
 
 #inner-box {
-    background-color: #383C4A;
+    background-color: #313244;
 }
 
 #outer-box {
     margin: 2px;
     padding: 10px;
-    background-color: #383C4A;
+    background-color: #1E1E2F;
 }
 
 #scroll {
@@ -34,11 +35,11 @@ window {
 }
 
 #entry:nth-child(even){
-    background-color: #404552;
+    background-color: #45475a;
 }
 
 #entry:selected {
-    background-color: #4C566A;
+    background-color: #6c7086;
 }
 
 #text:selected {

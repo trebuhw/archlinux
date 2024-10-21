@@ -25,7 +25,7 @@
       },
       {
           "type": "packages",
-          "format": "{} (zypper)",
+          "format": "{} (pacman)",
           "key": " ├ 󰏖 ",
           "keyColor": "31",  
       },
