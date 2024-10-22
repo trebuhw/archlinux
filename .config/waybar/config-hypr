@@ -19,28 +19,28 @@
         //"custom/rofi",
         "hyprland/workspaces",
         //"hyprland/submap",
+        "hyprland/window",
         //"idle_inhibitor",
         //"mpd"
         "custom/media"
     ],
     "modules-center": [
-        //"hyprland/window"
         "clock"
         //"custom/weather"
         //"custom/gammastep"
     ],
     "modules-right": [
-        "tray",
-        "temperature",
         "cpu",
+        "temperature",
         "memory",
         "backlight",
         //"pulseaudio",
         "wireplumber",
         //"custom/storage",
         //"custom/pacman",
+        "battery",
         "network",
-        "battery"
+        "tray"
         //"custom/screenshot_t",
         //"custom/power",
     ],

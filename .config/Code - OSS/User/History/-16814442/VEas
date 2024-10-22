@@ -1,0 +1,6 @@
+#!/bin/bash
+
+swaylock -c 313244
+
+sleep 1 
+ hyprctl dispatch dpms off

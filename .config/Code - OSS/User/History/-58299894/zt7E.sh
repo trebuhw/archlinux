@@ -3,9 +3,9 @@
 chosen=$(printf " Lock\n󰍃 Logout\n󰛧 Screenoff\n󰈆 Suspend\n Restart\n󰐥 Shutdown" | rofi -dmenu -i -p " ")
 
 case "$chosen" in
-	" Lock") ~/.config/hypr/scripts/lock;;
+	" Lock") swaylock -c 313244;;
 	"󰍃 Logout") killall Hyprland;;
-	"󰛧 Screenoff") ~/.config/hypr/scripts/offscreen;;
+	"󰛧 Screenoff") ~/.config/hypr/scriptsall/offscreen;;
 	"󰈆 Suspend") systemctl suspend ;;
 	" Restart") systemctl reboot ;;
 	"󰐥 Shutdown") systemctl poweroff;;

@@ -123,6 +123,12 @@ window#waybar.hidden {
 	background-color: #1e1e2e;
 }
 
+#window {
+	color: #a6adc8;
+	background-color: #1e1e2e;
+}
+
+
 #memory {
 	color: #f9e2af;
 	background-color: #1e1e2e;
