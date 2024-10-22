@@ -1,2 +1,0 @@
-2024-10-20 19:00:34.815 [error] [File Watcher] Unexpected error: inotify_add_watch on '/home/hubert/.config/Code - OSS/logs/20241020T145528/window1/exthost' failed: Nie ma takiego pliku ani katalogu (EUNKNOWN) (path: /home/hubert)
-2024-10-20 19:00:34.815 [error] [File Watcher (universal)] inotify_add_watch on '/home/hubert/.config/Code - OSS/logs/20241020T145528/window1/exthost' failed: Nie ma takiego pliku ani katalogu

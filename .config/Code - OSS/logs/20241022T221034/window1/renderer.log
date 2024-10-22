@@ -1,0 +1,4 @@
+2024-10-22 22:10:35.797 [info] Started local extension host with pid 1567.
+2024-10-22 22:10:38.549 [info] [perf] Render performance baseline is 30ms
+2024-10-22 22:10:49.790 [error] [File Watcher] Unexpected error: inotify_add_watch on '/home/hubert/Dokumenty/GitHub/archlinux/.config/Code - OSS/logs/20241020T190018/window1/output_20241020T190019' failed: Nie ma takiego pliku ani katalogu (EUNKNOWN) (path: /home/hubert)
+2024-10-22 22:10:49.792 [error] [File Watcher (universal)] inotify_add_watch on '/home/hubert/Dokumenty/GitHub/archlinux/.config/Code - OSS/logs/20241020T190018/window1/output_20241020T190019' failed: Nie ma takiego pliku ani katalogu
