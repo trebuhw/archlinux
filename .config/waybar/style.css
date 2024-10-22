@@ -113,13 +113,18 @@ window#waybar.hidden {
 	background-color: #1e1e2e;
 }
 
+#wireplumber {
+	color: #fab387;
+	background-color: #1e1e2e;
+}
+
 #cpu {
 	color: #f5c2e7;
 	background-color: #1e1e2e;
 }
 
 #memory {
-	color: #fab387;
+	color: #f9e2af;
 	background-color: #1e1e2e;
 }
 
@@ -237,7 +242,7 @@ label:focus {
 }
 
 #network {
-	color: #b48ead;
+	color: #89b4fa;
 }
 
 #network.disconnected {
