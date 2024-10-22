@@ -20,3 +20,23 @@
 2024-10-22 22:11:22.406 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1074
 2024-10-22 22:11:44.893 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1074
 2024-10-22 22:12:37.730 [warning] [Decorations] CAPPING events from decorations provider vscode.git 1074
+2024-10-22 22:14:58.386 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4237
+2024-10-22 22:14:58.839 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4237
+2024-10-22 22:14:58.852 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:1032588)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-10-22 22:14:59.855 [error] Error: Git error
+	at ChildProcess.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:1032588)
+	at ChildProcess.emit (node:events:531:35)
+	at ChildProcess._handle.onexit (node:internal/child_process:294:12)
+2024-10-22 22:15:16.962 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4242
+2024-10-22 22:15:17.403 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4242
+2024-10-22 22:15:17.870 [error] Error: spawn git ENOENT
+	at ChildProcess.<anonymous> (/usr/lib/code/extensions/git/dist/main.js:2:904696)
+	at Object.onceWrapper (node:events:634:26)
+	at ChildProcess.emit (node:events:519:28)
+	at ChildProcess._handle.onexit (node:internal/child_process:292:12)
+	at onErrorNT (node:internal/child_process:484:16)
+	at process.processTicksAndRejections (node:internal/process/task_queues:82:21)
+2024-10-22 22:15:22.052 [warning] [Decorations] CAPPING events from decorations provider vscode.git 4242

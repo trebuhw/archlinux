@@ -288,3 +288,208 @@ fatal: fetch-pack: invalid index-pack output
 2024-10-22 22:13:52.507 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
 2024-10-22 22:13:52.512 [info] > git status -z -uall [11ms]
 2024-10-22 22:13:52.957 [info] > git check-ignore -v -z --stdin [5ms]
+2024-10-22 22:14:58.304 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 22:14:58.309 [info] > git rev-parse --git-dir --git-common-dir [2ms]
+2024-10-22 22:14:58.312 [info] [Model][openRepository] Opened repository: /home/hubert/.local/share/Trash/files
+2024-10-22 22:14:58.322 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 22:14:58.322 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-22 22:14:58.322 [info] > git config --get commit.template [6ms]
+2024-10-22 22:14:58.329 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-22 22:14:58.332 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/hubert/.local/share/Trash/files/.git/refs/remotes/origin/main'
+2024-10-22 22:14:58.334 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-10-22 22:14:58.344 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-22 22:14:58.353 [info] > git status -z -uall [15ms]
+2024-10-22 22:14:58.400 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-10-22 22:14:58.406 [info] > git config --local branch.main.vscode-merge-base [2ms]
+2024-10-22 22:14:58.406 [warning] [Git][config] git config failed: Failed to execute git
+2024-10-22 22:14:58.410 [info] > git config --get commit.template [10ms]
+2024-10-22 22:14:58.708 [info] > git reflog main --grep-reflog=branch: Created from *. [298ms]
+2024-10-22 22:14:58.718 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [5ms]
+2024-10-22 22:14:58.723 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-10-22 22:14:58.728 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/hubert/.local/share/Trash/files/.git/refs/remotes/origin/main'
+2024-10-22 22:14:58.730 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [8ms]
+2024-10-22 22:14:58.736 [info] > git rev-parse refs/remotes/origin/main [8ms]
+2024-10-22 22:14:58.753 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [0ms]
+2024-10-22 22:14:58.754 [info] > git config --local branch.main.vscode-merge-base origin/main [18ms]
+2024-10-22 22:14:58.772 [info] > git status -z -uall [28ms] (cancelled)
+2024-10-22 22:14:58.773 [info] > git config --get commit.template [6ms]
+2024-10-22 22:14:58.773 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [12ms]
+2024-10-22 22:14:58.782 [info] > git config --local branch.main.vscode-merge-base [4ms]
+2024-10-22 22:14:58.787 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-10-22 22:14:58.791 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/hubert/.local/share/Trash/files/.git/refs/remotes/origin/main'
+2024-10-22 22:14:58.792 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [6ms]
+2024-10-22 22:14:58.799 [info] > git rev-parse refs/remotes/origin/main [8ms]
+2024-10-22 22:14:58.807 [info] > git merge-base refs/heads/main refs/remotes/origin/main [9ms]
+2024-10-22 22:14:58.814 [info] > git diff --name-status -z --diff-filter=ADMR f8fbd8f488553af2282356a89ba58b7cbc92be2e...refs/remotes/origin/main [3ms]
+2024-10-22 22:14:58.814 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [8ms]
+2024-10-22 22:14:58.815 [info] > git status -z -uall [13ms]
+2024-10-22 22:14:58.850 [info] > git check-ignore -v -z --stdin [4ms]
+2024-10-22 22:15:01.302 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 22:15:01.302 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-22 22:15:16.835 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/hubert/Dokumenty/dwm/.git/HEAD'
+2024-10-22 22:15:16.844 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/hubert/Dokumenty/dwm/.git/config'
+2024-10-22 22:15:16.859 [warning] [Git][getHEAD] Failed to parse HEAD file: ENOENT: no such file or directory, open '/home/hubert/Dokumenty/dwm/.git/HEAD'
+2024-10-22 22:15:16.867 [warning] [Git][getRemotes] Error: ENOENT: no such file or directory, open '/home/hubert/Dokumenty/dwm/.git/config'
+2024-10-22 22:15:16.874 [info] > git config --get commit.template [43ms]
+2024-10-22 22:15:16.876 [info] > git config --get commit.template [22ms]
+2024-10-22 22:15:16.884 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-10-22 22:15:16.894 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [10ms]
+2024-10-22 22:15:16.899 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/hubert/.local/share/Trash/files/.git/refs/remotes/origin/main'
+2024-10-22 22:15:16.899 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2024-10-22 22:15:16.901 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-10-22 22:15:16.911 [info] > git status -z -uall [23ms]
+2024-10-22 22:15:16.923 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [13ms]
+2024-10-22 22:15:16.924 [info] > git status -z -uall [19ms]
+2024-10-22 22:15:16.924 [info] > git merge-base refs/heads/main refs/remotes/origin/main [4ms]
+2024-10-22 22:15:16.967 [info] > git diff --name-status -z --diff-filter=ADMR 55dcf794ac51616466ac48f6ff26d85178c55bb0...refs/remotes/origin/main [38ms]
+2024-10-22 22:15:17.311 [info] > git fetch [488ms]
+2024-10-22 22:15:17.312 [info] > git fetch [494ms]
+2024-10-22 22:15:17.322 [info] > git config --get commit.template [6ms]
+2024-10-22 22:15:17.322 [info] > git config --get commit.template [1ms]
+2024-10-22 22:15:17.331 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-10-22 22:15:17.335 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/hubert/.local/share/Trash/files/.git/refs/remotes/origin/main'
+2024-10-22 22:15:17.335 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-10-22 22:15:17.336 [info] > git rev-parse refs/remotes/origin/main [2ms]
+2024-10-22 22:15:17.360 [info] > git status -z -uall [20ms]
+2024-10-22 22:15:17.360 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [6ms]
+2024-10-22 22:15:17.361 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [16ms]
+2024-10-22 22:15:17.413 [info] > git status -z -uall [64ms]
+2024-10-22 22:15:21.954 [info] > git config --get commit.template [15ms]
+2024-10-22 22:15:21.957 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-10-22 22:15:21.997 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [11ms]
+2024-10-22 22:15:21.998 [info] > git config --get commit.template [3ms]
+2024-10-22 22:15:22.004 [info] > git status -z -uall [33ms]
+2024-10-22 22:15:22.006 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-10-22 22:15:22.011 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/hubert/.local/share/Trash/files/.git/refs/remotes/origin/main'
+2024-10-22 22:15:22.012 [info] > git rev-parse refs/remotes/origin/main [1ms]
+2024-10-22 22:15:22.021 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-22 22:15:22.026 [info] > git status -z -uall [11ms]
+2024-10-22 22:15:27.035 [info] > git config --get commit.template [13ms]
+2024-10-22 22:15:27.036 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-10-22 22:15:27.045 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-10-22 22:15:27.052 [info] > git status -z -uall [12ms]
+2024-10-22 22:15:28.137 [info] > git check-ignore -v -z --stdin [7ms]
+2024-10-22 22:15:30.121 [info] > git check-ignore -v -z --stdin [9ms]
+2024-10-22 22:15:30.934 [info] > git check-ignore -v -z --stdin [8ms]
+2024-10-22 22:15:32.075 [info] > git config --get commit.template [8ms]
+2024-10-22 22:15:32.076 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-22 22:15:32.093 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-22 22:15:32.102 [info] > git status -z -uall [19ms]
+2024-10-22 22:15:32.459 [info] > git check-ignore -v -z --stdin [2ms]
+2024-10-22 22:15:34.252 [info] > git check-ignore -v -z --stdin [2ms]
+2024-10-22 22:15:35.508 [info] > git check-ignore -v -z --stdin [4ms]
+2024-10-22 22:15:37.138 [info] > git config --get commit.template [17ms]
+2024-10-22 22:15:37.141 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-10-22 22:15:37.174 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [4ms]
+2024-10-22 22:15:37.190 [info] > git status -z -uall [36ms]
+2024-10-22 22:15:38.706 [info] > git check-ignore -v -z --stdin [13ms]
+2024-10-22 22:15:41.259 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-22 22:15:41.259 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-22 22:15:41.266 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 22:15:41.266 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-22 22:15:41.278 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 22:15:41.278 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-22 22:15:41.284 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 22:15:41.284 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-22 22:15:41.323 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-22 22:15:41.323 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-22 22:15:41.328 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 22:15:41.328 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-22 22:15:41.333 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 22:15:41.333 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-22 22:15:41.338 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 22:15:41.338 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-22 22:15:41.967 [info] > git check-ignore -v -z --stdin [6ms]
+2024-10-22 22:15:41.969 [info] > git check-ignore -v -z --stdin [3ms]
+2024-10-22 22:15:42.227 [info] > git config --get commit.template [17ms]
+2024-10-22 22:15:42.230 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-10-22 22:15:42.249 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-22 22:15:42.264 [info] > git status -z -uall [24ms]
+2024-10-22 22:15:42.938 [info] > git check-ignore -v -z --stdin [5ms]
+2024-10-22 22:15:45.472 [info] > git check-ignore -v -z --stdin [1ms]
+2024-10-22 22:15:47.301 [info] > git config --get commit.template [20ms]
+2024-10-22 22:15:47.304 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [6ms]
+2024-10-22 22:15:47.327 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-22 22:15:47.345 [info] > git status -z -uall [29ms]
+2024-10-22 22:15:52.369 [info] > git config --get commit.template [8ms]
+2024-10-22 22:15:52.370 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-22 22:15:52.385 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-22 22:15:52.397 [info] > git status -z -uall [21ms]
+2024-10-22 22:16:01.286 [info] > git config --get commit.template [1ms]
+2024-10-22 22:16:01.293 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-22 22:16:01.304 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-10-22 22:16:01.316 [info] > git status -z -uall [19ms]
+2024-10-22 22:16:06.333 [info] > git config --get commit.template [6ms]
+2024-10-22 22:16:06.333 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-10-22 22:16:06.344 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-10-22 22:16:06.360 [info] > git status -z -uall [23ms]
+2024-10-22 22:16:07.021 [info] > git check-ignore -v -z --stdin [8ms]
+2024-10-22 22:16:18.094 [info] > git config --get commit.template [4ms]
+2024-10-22 22:16:18.095 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-10-22 22:16:18.106 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-10-22 22:16:18.121 [info] > git status -z -uall [22ms]
+2024-10-22 22:16:23.134 [info] > git config --get commit.template [5ms]
+2024-10-22 22:16:23.135 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-22 22:16:23.146 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-10-22 22:16:23.163 [info] > git status -z -uall [24ms]
+2024-10-22 22:16:28.187 [info] > git config --get commit.template [4ms]
+2024-10-22 22:16:28.188 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [2ms]
+2024-10-22 22:16:28.198 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-22 22:16:28.215 [info] > git status -z -uall [23ms]
+2024-10-22 22:16:36.693 [info] > git config --get commit.template [3ms]
+2024-10-22 22:16:36.693 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-10-22 22:16:36.703 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [1ms]
+2024-10-22 22:16:36.724 [info] > git status -z -uall [27ms]
+2024-10-22 22:16:39.544 [info] > git rev-parse --show-toplevel [3ms]
+2024-10-22 22:16:39.549 [info] > git rev-parse --path-format=relative --show-toplevel [1ms]
+2024-10-22 22:16:39.554 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-10-22 22:16:39.554 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-22 22:16:40.632 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 22:16:40.638 [info] > git rev-parse --path-format=relative --show-toplevel [1ms]
+2024-10-22 22:16:40.643 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-10-22 22:16:40.643 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-22 22:16:41.760 [info] > git config --get commit.template [17ms]
+2024-10-22 22:16:41.764 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-10-22 22:16:41.795 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-10-22 22:16:41.818 [info] > git status -z -uall [40ms]
+2024-10-22 22:16:45.515 [info] > git rev-parse --show-toplevel [1ms]
+2024-10-22 22:16:45.520 [info] > git rev-parse --path-format=relative --show-toplevel [1ms]
+2024-10-22 22:16:45.525 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-10-22 22:16:45.525 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-22 22:16:46.852 [info] > git config --get commit.template [16ms]
+2024-10-22 22:16:46.855 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [3ms]
+2024-10-22 22:16:46.875 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-22 22:16:46.900 [info] > git status -z -uall [35ms]
+2024-10-22 22:16:51.938 [info] > git config --get commit.template [17ms]
+2024-10-22 22:16:51.941 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [5ms]
+2024-10-22 22:16:51.975 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-22 22:16:51.997 [info] > git status -z -uall [41ms]
+2024-10-22 22:17:06.598 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-22 22:17:06.604 [info] > git rev-parse --path-format=relative --show-toplevel [2ms]
+2024-10-22 22:17:06.609 [info] > git rev-parse --git-dir --git-common-dir [1ms]
+2024-10-22 22:17:06.609 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-22 22:17:07.602 [info] > git rev-parse --show-toplevel [2ms]
+2024-10-22 22:17:07.602 [info] fatal: not a git repository (or any parent up to mount point /)
+Stopping at filesystem boundary (GIT_DISCOVERY_ACROSS_FILESYSTEM not set).
+2024-10-22 22:17:07.969 [info] > git config --get commit.template [16ms]
+2024-10-22 22:17:07.971 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-10-22 22:17:08.003 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [3ms]
+2024-10-22 22:17:08.027 [info] > git status -z -uall [43ms]
+2024-10-22 22:17:13.046 [info] > git config --get commit.template [5ms]
+2024-10-22 22:17:13.046 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [1ms]
+2024-10-22 22:17:13.057 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [2ms]
+2024-10-22 22:17:13.072 [info] > git status -z -uall [22ms]

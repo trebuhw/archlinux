@@ -1,2 +1,3 @@
 2024-10-22 22:10:49.793 [error] [File Watcher] Unexpected error: inotify_add_watch on '/home/hubert/Dokumenty/GitHub/archlinux/.config/Code - OSS/logs/20241020T190018/window1/output_20241020T190019' failed: Nie ma takiego pliku ani katalogu (EUNKNOWN) (path: /home/hubert)
 2024-10-22 22:10:49.793 [error] [File Watcher (universal)] inotify_add_watch on '/home/hubert/Dokumenty/GitHub/archlinux/.config/Code - OSS/logs/20241020T190018/window1/output_20241020T190019' failed: Nie ma takiego pliku ani katalogu
+2024-10-22 22:14:57.867 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
