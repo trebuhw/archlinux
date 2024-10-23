@@ -75,7 +75,8 @@
                             "items": [
                                 {
                                     "id": "workbench.action.reopenClosedEditor",
-                                    "label": "&&Reopen Closed Editor"
+                                    "label": "&&Reopen Closed Editor",
+                                    "enabled": false
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
@@ -148,6 +149,17 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFile",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/hubert/Pobrane/dwm-main/files/home/.xprofile",
+                                        "path": "/home/hubert/Pobrane/dwm-main/files/home/.xprofile",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Pobrane/dwm-main/files/home/.xprofile"
                                 },
                                 {
                                     "id": "openRecentFile",
@@ -860,7 +872,8 @@
                     },
                     {
                         "id": "workbench.action.navigateToLastEditLocation",
-                        "label": "&&Last Edit Location"
+                        "label": "&&Last Edit Location",
+                        "enabled": false
                     },
                     {
                         "id": "vscode.menubar.separator"
@@ -1787,7 +1800,7 @@
                 "mode": 1,
                 "x": 7,
                 "y": 49,
-                "width": 1906,
+                "width": 948,
                 "height": 1024
             }
         },

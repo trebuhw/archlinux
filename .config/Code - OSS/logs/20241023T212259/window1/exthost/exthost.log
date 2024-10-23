@@ -1,0 +1,18 @@
+2024-10-23 21:23:01.524 [info] Extension host with pid 2661 started
+2024-10-23 21:23:01.524 [info] Skipping acquiring lock for /home/hubert/.config/Code - OSS/User/workspaceStorage/726d9de4e5eb9c12ad1a4bd77b853069.
+2024-10-23 21:23:01.748 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-10-23 21:23:01.857 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-10-23 21:23:01.873 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-10-23 21:23:01.959 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-10-23 21:23:02.046 [info] Eager extensions activated
+2024-10-23 21:23:02.070 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-10-23 21:23:02.072 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-10-23 21:23:02.098 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc, startup: false, activationEvent: 'onStartupFinished'
+2024-10-23 21:23:02.104 [info] ExtensionService#_doActivateExtension Catppuccin.catppuccin-vsc-icons, startup: false, activationEvent: 'onStartupFinished'
+2024-10-23 21:23:02.198 [info] ExtensionService#_doActivateExtension esbenp.prettier-vscode, startup: false, activationEvent: 'onStartupFinished'
+2024-10-23 21:23:02.281 [info] ExtensionService#_doActivateExtension naumovs.color-highlight, startup: false, activationEvent: 'onStartupFinished'
+2024-10-23 21:23:02.372 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-23 21:23:02.383 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-23 21:23:02.436 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-10-23 21:23:18.619 [info] Extension host terminating: renderer closed the MessagePort
+2024-10-23 21:23:18.637 [info] Extension host with pid 2661 exiting with code 0

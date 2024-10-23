@@ -1,0 +1,15 @@
+2024-10-23 21:23:05.531 [info] Getting Manifest... pkief.material-icon-theme
+2024-10-23 21:23:12.418 [info] Installing extension: pkief.material-icon-theme {"productVersion":{"version":"1.94.2","date":"2024-10-11T17:48:05.551Z"},"pinned":false,"operation":3,"isApplicationScoped":false,"profileLocation":{"$mid":1,"external":"vscode-userdata:/home/hubert/.vscode-oss/extensions/extensions.json","path":"/home/hubert/.vscode-oss/extensions/extensions.json","scheme":"vscode-userdata"},"installOnlyNewlyAddedFromExtensionPack":true}
+2024-10-23 21:23:13.274 [error] Could not load vsce-sign module Cannot find package '@vscode/vsce-sign' imported from /usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js
+2024-10-23 21:23:13.274 [info] Extension signature verification is not done: pkief.material-icon-theme
+2024-10-23 21:23:13.773 [info] Extracted extension to file:///home/hubert/.vscode-oss/extensions/pkief.material-icon-theme-5.12.0-universal: pkief.material-icon-theme
+2024-10-23 21:23:13.776 [info] Renamed to /home/hubert/.vscode-oss/extensions/pkief.material-icon-theme-5.12.0-universal
+2024-10-23 21:23:13.790 [info] Marked extension as uninstalled pkief.material-icon-theme-5.11.1-universal
+2024-10-23 21:23:13.794 [info] Extension installed successfully: pkief.material-icon-theme vscode-userdata:/home/hubert/.vscode-oss/extensions/extensions.json
+2024-10-23 21:23:13.861 [error] [uncaught exception in sharedProcess]: Error: ENOENT: no such file or directory, stat '/home/hubert/.vscode-oss/extensions/extensions.json.vsctmp': EntryNotFound (FileSystemError): Error: ENOENT: no such file or directory, stat '/home/hubert/.vscode-oss/extensions/extensions.json.vsctmp'
+    at lm.create (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39253)
+    at Es (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:35:39360)
+    at Fr.ib (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:22661)
+    at Fr.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:71:15994)
+    at async eh.stat (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:84484)
+    at async Kl.yb (file:///usr/lib/code/out/vs/code/electron-utility/sharedProcess/sharedProcessMain.js:70:66600)
