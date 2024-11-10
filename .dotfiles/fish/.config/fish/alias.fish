@@ -70,6 +70,9 @@ alias locate='locate -b'
 alias tobash="sudo chsh $USER -s /bin/bash && echo 'Now log out.'"
 alias tofish="sudo chsh $USER -s /usr/bin/fish && echo 'Now log out.'"
 
+## Mount ntfs
+alias mntfs='sudo mount -t ntfs-3g -o uid=hubert,gid=hubert ' # /dev/sdX1 /ścieżka/do/montażu
+
 ## Colorize the grep command output for ease of use (good for log files)##
 alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
