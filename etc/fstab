@@ -14,5 +14,4 @@ UUID=375b4dc6-e8b6-4167-b985-dbc40d61f7c0 /var/cache     btrfs   subvol=/@cache,
 UUID=375b4dc6-e8b6-4167-b985-dbc40d61f7c0 /var/tmp       btrfs   subvol=/@tmp,defaults,noatime,compress=zstd,commit=120 0 0
 UUID=375b4dc6-e8b6-4167-b985-dbc40d61f7c0 /var/log       btrfs   subvol=/@log,defaults,noatime,compress=zstd,commit=120 0 0
 tmpfs                                     /tmp           tmpfs   defaults,noatime,mode=1777 0 0
-UUID=c4c1efc2-7df3-47b2-a68e-7ed5f377b325   /home/hubert/Archiwum   ext4   defaults,uid=1000,gid=1000   0   2
-
+/dev/disk/by-uuid/c4c1efc2-7df3-47b2-a68e-7ed5f377b325 /home/hubert/Archiwum auto nosuid,nodev,nofail,x-gvfs-show,x-udisks-auth 0 0
