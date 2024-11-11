@@ -133,6 +133,7 @@ $packer zoxide
 
 yay archlinux-tweak-tool-git
 yay bibata-cursor-theme
+yay nbfc # Notebok fan cotrol - enable/start nbfc.service
 yay update-grub
 yay xwininfo
 yay google-chrome
