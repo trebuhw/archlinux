@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# Change shell to fish
+sudo chsh $USER -s /usr/bin/fish
+
 # Przejście do głównego katalogu
 cd ~/
 
