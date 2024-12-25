@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# 1. Sklomowanie .dotfles
+# 2. Usunięcie katalogów do stow
+# 3. stow
+# 4. Instalacja pacman i paru
+# 5. Sklonowanie i instalacja dwm
+# 6. Skopiowanie systemowych katalogów do 
+#    sddm  
+#    dwm (pamietać o exe dwm i zrywanie ekranu)
+# 7. instalacja virt-manager
+# 8. Instalacja drukarki
