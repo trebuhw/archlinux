@@ -1,22 +1,20 @@
 #!/bin/bash
 
-## SDDM - themes i config (sprawdzić czy ln -s da radę)
-# etc
-/Archlinux-install/file/sddm.conf.d /etc
-# usr
-/Archlinux-install/file/simple-sddm /usr/share/sddm/themes
+# File theme - Catppucin gtk
+cd $HOME/archlinux/file
+sudo rsync -avz $HOME/archlinux/file/usr/share/icons/* ~/usr/share/themes
 
-
-## Theme
-# Catppucin gtk
-Catppuccin-Mocha-Standard-Blue-Dark /usr/share/themes
+# File to DWM
+sudo -p mkdir /usr/share/xsessions
+sudo rsync -avz $HOME/archlinux/file/usr/share/xsessions/* ~/usr/shaare/xsessions
+sudo rsync -avz $HOME/archlinux/file/etc/X11/xorg.conf.d/*
 
 ## Pliki
 #  Dokumenty
-rsync -av ~/Archiwum/Linux/Dokumenty/* ~/Dokumenty
+#rsync -av ~/Archiwum/Linux/Dokumenty/* ~/Dokumenty
 
 #  Muzyka
-rsync -av ~/Archiwum/Linux/Muzyka/* ~/Muzyka
+#rsync -av ~/Archiwum/Linux/Muzyka/* ~/Muzyka
 
 #  Obrazy
-rsync -av ~/Archiwum/Linux/Obrazy/* ~/Obrazy
+#rsync -av ~/Archiwum/Linux/Obrazy/* ~/Obrazy
