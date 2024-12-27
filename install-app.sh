@@ -13,6 +13,7 @@ cd $HOME/
 
 git clone --depth=1 https://github.com/trebuhw/.dotfiles.git
 mkdir .local/bin
+mkdir .local/icons
 
 cd $HOME/.dotfiles/
 
@@ -114,6 +115,7 @@ sudo pacman -Syyu --needed --noconfirm os-prober
 sudo pacman -Syyu --needed --noconfirm pacman-contrib
 sudo pacman -Syyu --needed --noconfirm pamixer
 sudo pacman -Syyu --needed --noconfirm parcellite
+sudo pacman -Syyu --needed --noconfirm papirus-icon-theme
 sudo pacman -Syyu --needed --noconfirm paru
 sudo pacman -Syyu --needed --noconfirm pavucontrol
 sudo pacman -Syyu --needed --noconfirm pdfarranger
@@ -207,4 +209,6 @@ cd $HOME/dwm/
 sudo rsync ~/HOME/dwm/etc/X11/* /etc/X11/
 sudo rsync ~/HOME/dwm/usr/share/* /usr/share/
 
+sh $HOME/archlinux/config/set-theme.sh
+sh $HOME/archlinux/config/ln-root.sh
 
