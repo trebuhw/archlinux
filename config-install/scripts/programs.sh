@@ -184,5 +184,5 @@ paru bibata-cursor-theme
 #paru brscan4
 #paru github-desktop-bin
 
-sudo fc-cache -fv
+sudo fc-cache -fv &
 sudo chsh $USER -s /usr/bin/fish
