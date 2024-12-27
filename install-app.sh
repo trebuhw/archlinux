@@ -1,7 +1,7 @@
 #!/bin/bash
 
 sudo pacman -S --needed base-devel
-git clone https://aur.archlinux.org/paru.git
+git clone --depth=1 https://aur.archlinux.org/paru.git
 cd paru
 makepkg -si
 
@@ -11,7 +11,7 @@ sudo pacman -Syyu --needed --noconfirm git
 sudo pacman -Syyu --needed --noconfirm stow
 cd $HOME/
 
-git clone https://github.com/trebuhw/.dotfiles.git
+git clone --depth=1 https://github.com/trebuhw/.dotfiles.git
 mkdir .local/bin
 
 cd $HOME/.dotfiles/
@@ -198,13 +198,11 @@ paru github-desktop-bin
 
 cd $HOME
 
-git clone https://github.com/trebuhw/archlinux.git
-
 cd $HOME/archlinux/file
 sudo cp -r Catppuccin-Mocha-Standart-Blue-Dark ~/usr/share/themes
 cd $HOME
 
-git clone https://github.com/trebuhw/dwm.git
+git clone --dept=1  https://github.com/trebuhw/dwm.git
 cd $HOME/dwm/
 sudo rsync ~/HOME/dwm/etc/X11/* /etc/X11/
 sudo rsync ~/HOME/dwm/usr/share/* /usr/share/
