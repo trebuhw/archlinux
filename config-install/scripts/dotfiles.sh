@@ -24,7 +24,7 @@ remove_items() {
 # Usunięcie katalogów ~/.config
 config_dirs=(
     alacritty btop fastfetch fish foot gtk-2.0 gtk-3.0 gtk-4.0 hypr kitty
-    lite-xl mako mc nvim qt5ct ranger rofi sublime-text swaylock Thunar
+    mako mc nvim qt5ct ranger rofi sublime-text swaylock Thunar
     waybar waypaper wlogout wofi wofifull xfce4 yazi zathura
 )
 remove_items "${config_dirs[@]/#/~/.config/}"
@@ -45,7 +45,7 @@ cd ~/.dotfiles || { echo "Nie udało się przejść do katalogu ~/.dotfiles"; ex
 
 # Wykonanie stow (utworzenie dowiązań symbolicznych)
 for item in alacritty btop fastfetch fish foot gtk-2.0 gtk-3.0 gtk-4.0 hypr kitty \
-            lite-xl mako mc nvim qt5ct ranger rofi starship sublime-text swaylock \
+            mako mc nvim qt5ct ranger rofi starship sublime-text swaylock \
             Thunar waybar waypaper wlogout wofi wofifull xfce4 yazi zathura; do
     stow "$item"
 done

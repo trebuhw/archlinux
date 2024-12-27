@@ -17,7 +17,7 @@ mkdir .local/icons
 
 cd $HOME/.dotfiles/
 
-stow --adopt .
+stow/ .
 
 # Archlinux instalacja programów (wybrane od 241226)
 
