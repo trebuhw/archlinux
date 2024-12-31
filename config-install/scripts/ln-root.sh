@@ -11,14 +11,14 @@ create_symlink() {
 }
 
 # Lista dowiązań do utworzenia
-create_symlink ~/.dotfiles/gtkrc-2.0/.gtkrc-2.0 /root/.gtkrc-2.0
-create_symlink ~/.dotfiles/vim/.vimrc /root/.vimrc
-create_symlink ~/.dotfiles/vim/.viminfo /root/.viminfo
-create_symlink ~/.dotfiles/vim/.config/vim /root/.config/vim
-create_symlink ~/.dotfiles/nvim/.config/nvim /root/.config/nvim
-create_symlink ~/.dotfiles/mc/.config/mc /root/.config/mc
-create_symlink ~/.dotfiles/gtk-4.0/.config/gtk-4.0 /root/.config/gtk-4.0
-create_symlink ~/.dotfiles/gtk-3.0/.config/gtk-3.0 /root/.config/gtk-3.0
-create_symlink ~/.dotfiles/gtk-2.0/.config/gtk-2.0 /root/.config/gtk-2.0
-create_symlink ~/.dotfiles/yazi/.config/yazi /root/.config/yazi
-create_symlink ~/.dotfiles/ranger/.config/ranger /root/.config/ranger
+create_symlink ~/dotfiles/gtkrc-2.0/.gtkrc-2.0 /root/.gtkrc-2.0
+create_symlink ~/dotfiles/vim/.vimrc /root/.vimrc
+create_symlink ~/dotfiles/vim/.viminfo /root/.viminfo
+create_symlink ~/dotfiles/vim/.config/vim /root/.config/vim
+create_symlink ~/dotfiles/nvim/.config/nvim /root/.config/nvim
+create_symlink ~/dotfiles/mc/.config/mc /root/.config/mc
+create_symlink ~/dotfiles/gtk-4.0/.config/gtk-4.0 /root/.config/gtk-4.0
+create_symlink ~/dotfiles/gtk-3.0/.config/gtk-3.0 /root/.config/gtk-3.0
+create_symlink ~/dotfiles/gtk-2.0/.config/gtk-2.0 /root/.config/gtk-2.0
+create_symlink ~/dotfiles/yazi/.config/yazi /root/.config/yazi
+create_symlink ~/dotfiles/ranger/.config/ranger /root/.config/ranger
