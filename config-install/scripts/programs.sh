@@ -140,7 +140,7 @@ $packer swaylock-fancy-git
 $packer sxhkd
 $packer sxiv
 $packer system-config-printer
-$packer tela-circle-icon-theme-all
+$packer tela-circle-icon-theme-dracula
 $packer texinfo
 $packer thunar
 $packer thunar-archive-plugin
