@@ -1,11 +1,20 @@
 #!/bin/bash
 
+REPO_URL="https://github.com/trebuhw/.dotfiles.git"
 DOTFILES="${1:-$HOME/.dotfiles}"
 TARGET="${2:-$HOME}"
 
+# Klonowanie repozytorium jeśli nie istnieje
+if [ ! -d "$DOTFILES" ]; then
+  echo "Klonuję repozytorium $REPO_URL do $DOTFILES"
+  git clone "$REPO_URL" "$DOTFILES"
+else
+  echo "Repozytorium $DOTFILES już istnieje, pomijam klonowanie."
+fi
+
 # Funkcja do przenoszenia istniejących plików/katalogów
 backup_existing_files() {
-  dest="$1" # Ścieżka do oryginalnego pliku/katalogu
+  dest="$1"
   if [ -e "$dest" ]; then
     backup="$dest.bak"
     echo "Tworzę kopię zapasową: $dest -> $backup"
@@ -19,7 +28,7 @@ backup_existing_files() {
 
 # Funkcja do tworzenia brakujących katalogów
 ensure_directory_exists() {
-  dir="$1" # Ścieżka do katalogu
+  dir="$1"
   if [ ! -d "$dir" ]; then
     echo "Tworzę brakujący katalog: $dir"
     mkdir -p "$dir"
@@ -28,23 +37,18 @@ ensure_directory_exists() {
 
 # Iteracja po katalogach w .dotfiles
 for dir in "$DOTFILES"/*/; do
-  app=$(basename "$dir") # Nazwa aplikacji (np. "alacritty")
+  app=$(basename "$dir")
 
-  # Wyszukiwanie plików i katalogów w strukturze .dotfiles
   find "$dir" -type f | while read -r file; do
-    # Oblicz ścieżkę docelową na podstawie struktury .dotfiles
-    rel_path="${file#$dir}"               # Ścieżka względna względem katalogu aplikacji
-    target_dir=$(dirname "$rel_path")     # Katalog docelowy (np. .config/alacritty)
-    full_target_dir="$TARGET/$target_dir" # Pełna ścieżka do katalogu docelowego
-    dest="$full_target_dir/$(basename "$file")" # Pełna ścieżka do pliku docelowego
+    rel_path="${file#$dir}"
+    target_dir=$(dirname "$rel_path")
+    full_target_dir="$TARGET/$target_dir"
+    dest="$full_target_dir/$(basename "$file")"
 
-    # Tworzenie brakującego katalogu
     ensure_directory_exists "$full_target_dir"
-
-    # Backup istniejących plików/katalogów
     backup_existing_files "$dest"
   done
 done
 
-# Uruchomienie stow po wykonaniu kopii zapasowych i tworzeniu katalogów
+# Wykonanie stow
 stow --target="$TARGET" --dir="$DOTFILES" */
