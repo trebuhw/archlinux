@@ -22,3 +22,8 @@ create_symlink ~/dotfiles/gtk-3.0/.config/gtk-3.0 /root/.config/gtk-3.0
 create_symlink ~/dotfiles/gtk-2.0/.config/gtk-2.0 /root/.config/gtk-2.0
 create_symlink ~/dotfiles/yazi/.config/yazi /root/.config/yazi
 create_symlink ~/dotfiles/ranger/.config/ranger /root/.config/ranger
+
+# Themes
+sudo ln -sf ~/.dotfiles/themes/.themes/Catppuccin-Mocha-Standard-Blue-Dark/ /usr/share/themes/
+sudo ln -sf ~/.dotfiles/themes/.themes/Catppuccin-Dark/ /usr/share/themes/
+sudo ln -sf ~/.dotfiles/themes/.themes/Catppuccin-Light/ /usr/share/themes/
