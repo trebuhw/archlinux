@@ -14,10 +14,10 @@ sudo pacman -Syu
 
 git clone https://github.com/trebuhw/.dotfiles.git --depth=1
 
-sudo pacman -S fish networkmanager nwg-look stow tela-circle-icon-theme-dracula  waypaper wezterm
+sudo pacman -S fish intel-ucode networkmanager nwg-look stow tela-circle-icon-theme-dracula  waypaper wezterm
 
 cd ~/.dotfiles
-stow fish wezterm yazi
+stow fish/ wezterm/ yazi/
 
 yay catppuccin-gtk-theme-mocha google-chrome-stable 
 
