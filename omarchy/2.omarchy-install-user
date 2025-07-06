@@ -1,0 +1,31 @@
+#!/usr/bin/env bash
+
+# Kolorowe komunikaty
+red() { echo -e "\033[31m$*\033[0m"; }
+green() { echo -e "\033[32m$*\033[0m"; }
+yellow() { echo -e "\033[33m$*\033[0m"; }
+
+# Logowanie
+log() { echo "[$(date +'%Y-%m-%d %H:%M:%S')] $*"; }
+error() { log "ERROR: $*" >&2; }
+warn() { log "WARN: $*" >&2; }
+
+sudo pacman -Syu
+
+git clone https://github.com/trebuhw/.dotfiles.git --depth=1
+
+sudo pacman -S fish networkmanager nwg-look stow tela-circle-icon-theme-dracula  waypaper wezterm
+
+cd ~/.dotfiles
+stow fish wezterm yazi
+
+yay catppuccin-gtk-theme-mocha google-chrome-stable 
+
+sudo systemctl enable NetworkManager
+sudo systemctl start NetworkManager
+
+# Ustawienie theme gtk
+gsettings set org.gnome.desktop.interface gtk-theme "catppuccin-mocha-blue-standart+defult"
+gsettings set org.gnome.desktop.wm.preferences theme "catppuccin-mocha-blue-standart+defult"
+gsettings set org.gnome.desktop.interface icon-theme "Tela-circle-dracula-dark"
+
